@@ -1,0 +1,27 @@
+.one{
+    width: 300px;
+    height:100px;
+    margin:auto;
+    background-color: red;
+    transition:background-color;
+    transition-duration: .5s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-delay: .18s;
+
+}
+
+.one:hover{
+    transform: scale(2,4);
+    width:500px;
+    background-color: orange;
+    font-size: 20px;
+}
+
+.two{
+    width: 300px;
+    height:100px;
+    margin:auto;
+    background-color: red;
+    transform: rotate(-90deg);
+}
